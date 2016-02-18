@@ -32,7 +32,7 @@ module.exports = {
   // List of servers that us SRCDS services
   servers: [{
     name: 'myServer',
-    address: '51.254.13.176', //this could be (ip or ip:port)
+    address: '123.123.123.123', //this could be (ip or ip:port)
     password: 'my-rcon-password'
   }],
   /*
