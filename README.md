@@ -24,12 +24,29 @@ With npm (you will have to create config file manually) :
 `npm install --save trailpack-srcdsrcon`
 
 ## Configuration
+Enable SrcdsRcon
+```js
+// config/main.js
+
+  packs: [
+    ...
+    require('trailpack-srcdsrcon')
+  ],
+```
+Check that srcds config is loaded on index.js
+```js
+// config/index.js
+...
+exports.srcds = require('./srcds')
+```
+
+Configure
 ```js
 // config/srdcs.js
 
 module.exports = {
 
-  // List of servers that us SRCDS services
+  // List of servers that use SRCDS services
   servers: [{
     name: 'myServer',
     address: '123.123.123.123', //this could be (ip or ip:port)
@@ -42,6 +59,7 @@ module.exports = {
 }
 
 ```
+
 
 ## Usage
 
