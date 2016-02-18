@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+- '4'
+- stable
+notifications:
+  email: false
+  webhooks:
+    urls:
+    - https://webhooks.gitter.im/e/54f8a1e753f859f5ca1a
+    on_start: never
+    on_failure: change
+deploy:
+  provider: npm
+  email: contact@mehdiaissani.com
+  api_key:
+    secure: e6TtI00Cc3ioPzAiebSsaHeoZL7MTBc8jJRwBTWph5b9cR3JUCbqCu1h5h8uRphppCbgar+B3imOXfyfcWDGNvuWQ+/2VNB9qhBB/fcZPvppMV3t+Ybht+chmkanM6LuInTfHKnJxoLU4uLPchIuI58YlwdC3KEC8SvVW55S1PNIWYZmI6iPySAW9sJF/CAm9fi6Bg5noQjIoSywLrjuTKyg9yFh31TA0Crz4nHnjLROwYZL8QGpKXf+C7TeAEKyJ6O5aZ3UocN8my8gOgnAzcK23UNBzIArmAnF3SO0Tb13B592Pm8npIN60fXkozuHSPUGKx6xWXY7pVlgcmyeNMgRGMe5sWLMDqu5/DwsC/G3wut7NYxWX/DDI696SlAZAHO/30amTKK6DDfLpAeU74Vzi5ad0B5NOyS28AfC9kOkYbLD/RlVe8AA0aoDbzdCbRkuiD201WQtuU1GVaKJZoI6sF8r4GNVvxvqPW5/7kDaEi6PPuk8Hs9mPYBMlxV6SAoV0VtCwLNEfa01vIz0aNzQ04KhRPMjc1+WDmR6MhjDOl0xsiPCWdiqkjOXovrExzrIE8fXqbPq/LpXHn5qgk0ncY3UnQDw9jOwvVXoNGQogLHXnXcBW6SA6w0AT0i5m+cQc8rnvfQBaINs3jKdtQvKUu4gKUKaTVPXolwax+k=
+  on:
+    tags: true
+    repo: maissani/trailpack-srcdsrcon
+    all_branches: true
+    node: stable
