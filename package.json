@@ -3,11 +3,7 @@
   "version": "1.0.0-alpha-6",
   "description": "Utilities for SRCDS'S remote console (RCON)",
   "homepage": "https://github.com/maissani/trailpack-srcdsrcon",
-  "author": {
-    "name": "Mehdi Aissani",
-    "email": "contact@mehdiaissani.com",
-    "url": "https://mehdiaissani.com"
-  },
+  "author": "Mehdi Aissani <contact@mehdiaissani.com> (https://mehdiaissani.com)",
   "files": [
     "lib"
   ],
@@ -37,6 +33,15 @@
   "eslintConfig": {
     "extends": "trails"
   },
-  "repository": "maissani/trailpack-srcdsrcon",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maissani/trailpack-srcdsrcon.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maissani/trailpack-srcdsrcon/issues"
+  },
+  "directories": {
+    "test": "test"
+  }
 }
