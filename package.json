@@ -1,6 +1,6 @@
 {
   "name": "trailpack-srcdsrcon",
-  "version": "1.0.0-alpha-8",
+  "version": "1.0.0-alpha-9",
   "description": "Utilities for SRCDS'S remote console (RCON)",
   "homepage": "https://github.com/maissani/trailpack-srcdsrcon",
   "author": "Mehdi Aissani <contact@mehdiaissani.com> (https://mehdiaissani.com)",
