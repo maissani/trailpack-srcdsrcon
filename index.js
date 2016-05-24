@@ -14,7 +14,7 @@ module.exports = class SrcdsrconTrailpack extends Trailpack {
           'check it\'s load in ./config/index.js or create it !')
       )
     }
-    return Promise.resolve();
+    return Promise.resolve()
   }
 
   constructor (app) {
@@ -25,4 +25,3 @@ module.exports = class SrcdsrconTrailpack extends Trailpack {
     })
   }
 }
-
