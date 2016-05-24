@@ -14,13 +14,13 @@
     "trailjs"
   ],
   "dependencies": {
-    "lodash": "^4.5.0",
     "srcds-rcon": "^2.2.1",
+    "lodash": "^4.13.1",
     "trailpack": "latest",
-    "trails-service": "^1.0.0-alpha-1"
+    "trails-service": "^1.0.0-beta-2"
   },
   "devDependencies": {
-    "eslint": "^2.5.3",
+    "eslint": "^2.10.2",
     "eslint-config-trails": "^1.0.7",
     "mocha": "^2.5.1"
   },
