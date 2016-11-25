@@ -20,7 +20,7 @@
     "trails-service": "^1.0.0-beta-2"
   },
   "devDependencies": {
-    "eslint": "^3.0.1",
+    "eslint": "^3.11.0",
     "eslint-config-trails": "^1.0.7",
     "mocha": "^3.0.0"
   },
